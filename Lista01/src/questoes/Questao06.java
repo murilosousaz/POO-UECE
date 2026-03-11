@@ -51,12 +51,13 @@ public class Questao06 {
 			for(int j = 0; j < n; j++) {
 				if(matriz[i][j] > maior) {
 					maior = matriz[i][j];
-		}
+				}
 				if(matriz[i][j] < menor) {
 					menor = matriz[i][j];
 				}
 			}
 		}
+		
 		System.out.println("d) Maior elemento: " + maior);
 		System.out.println(" Menor elemento: " + menor);
 		sc.close();
